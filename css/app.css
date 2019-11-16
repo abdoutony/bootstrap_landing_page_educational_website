@@ -1,0 +1,282 @@
+/* fonts */
+ 
+ @font-face{
+ font-family: cabin;
+ src:url("../fonts/cabin/Cabin-Bold.ttf");
+  }
+
+/* end fonts*/
+
+
+
+/* global style*/
+
+   body{
+    	margin:0;
+    	padding: 0;
+    	box-sizing: border-box;
+    }
+
+    .overlay{
+      display: block;
+	  position: absolute;
+	  width: 100%;
+	  height:725px;
+	  background-color: /*#04161f*/ rgba(0,0,0,0.6);
+	  opacity: 0.7;
+	  top: 0;
+	  left: 0;
+	  z-index: 1; 
+    }
+
+    .font-cabin{
+    	font-family: cabin;
+    }
+
+    .fw-300{font-weight: 300}
+
+
+
+/* end global style */
+   
+   
+
+/*  header style    */
+   
+    .header{	
+      width: 100%;
+	  height: 110vh;
+	  background-image: url("../images/newtemp/zs.png");
+	  background-repeat: no-repeat;
+	  background-size: 100% 100%;
+	  position: relative;
+	  margin: 0;
+	  padding: 0;
+	  overflow: hidden !important;
+	  background-attachment: fixed;
+    }
+
+    .upper_nav{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 99;
+    padding: 30px;
+    background-color: transparent;
+    transition: padding .4s ease;
+    }
+
+    .upper_nav1{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    z-index: 99;
+    padding: 15px;
+    background-color: #292c2f /*444444*/ !important;
+    transition: padding .4s ease;
+}
+
+    .navbar-light .navbar-nav .nav-link{
+    	font-family: "cabin";
+    }
+
+
+    .study_color {
+    color: aqua;
+     }
+
+
+     .center_title {
+    margin-top: 30px;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+    }
+
+    .auth_btn{
+    font-family: "cabin";
+    border-width: 3px;
+    border-radius: 0px;
+    width: 188px;
+    height: 60px;
+    margin-right: 10px;
+    }
+
+
+    .center_title h1 {
+    z-index: 2;
+    color: #fff;
+    }
+
+    .hello {
+    font-size: 7vw !important;
+    font-weight: 300;
+    text-shadow: 2px 2px 21px #000;
+    }
+
+
+
+/*  end header style */
+
+
+
+/* content styles*/
+
+
+.content{
+	max-width: 1360px;
+    position: relative;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-attachment: fixed;
+    overflow: hidden !important;
+}
+
+.content .row_second {
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.row_third{
+	position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.welcome-title{
+	font-size: 3rem;
+	font-weight: 300;
+}
+
+.separator{
+	position: absolute;
+	width: 60px;
+	height: 5px;
+	background-color: #b3b3b3;
+	border-radius: 20px;
+}
+
+.parag{
+	color:  #a0a0a0;
+	font-family: "cabin";
+}
+
+.hh4{
+	padding-top: 10px;
+	font-weight: 300;
+}
+
+ .hh5{
+ 	font-family: "cabin";
+ 	font-size: 1rem;
+ 	font-weight: 600;
+ }
+
+.hh6{
+	font-size: 0.8rem;
+	font-family: "cabin";
+}
+
+.viewall{
+	    width: 300px;
+    height: 50px;
+    border-radius: 30px;
+    font-family: "cabin";
+}
+
+.subcontent2 {
+    width: 100%;
+    height: 540px;
+    position: relative;
+    background-image: url(../images/pencils.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden !important;
+    box-shadow: 1px 0px 2px #afafaf;
+}
+
+.number_disc {
+    font-size: 35px;
+    color: #fff;
+    font-family: cabin;
+}
+
+
+
+.nnumber {
+    font-size: 60px;
+    font-family: Arial,tahoma;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+
+/*end content style*/
+
+
+
+/*styling footer */
+
+
+ .footer {
+  position: relative;
+  top: 100px;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  /*height: 450px;*/
+}
+
+
+
+/* Sticky footer style and color
+-------------------------------------------------- */
+footer {
+  padding-top: 30px;
+  background-color: #292c2f;
+  color: #bbb;
+}
+
+footer a {
+  color: #999;
+  text-decoration:none;
+  font-family: cabin,arial,tahoma;
+}
+
+footer a:hover, footer a:focus {
+  color: #aaa;
+  text-decoration:none;
+  border-bottom:1px dotted #999;
+}
+
+footer .form-control {
+    background-color: #1f2022;
+    font-family: cabin,arial,tahoma;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    border-radius: 0px;
+    padding: 0.7em 1em;
+}
+
+.form-control:focus{
+ background-color: #1f2022;
+    font-family: cabin,arial,tahoma;
+    box-shadow: 0 1px 0 0 rgba(255, 255, 255, 0.1);
+    border: none;
+    resize: none;
+    color: #d1d2d2;
+    border-radius: 0px;
+    padding: 0.7em 1em;	
+}
+
+/*  end styling footer  */
